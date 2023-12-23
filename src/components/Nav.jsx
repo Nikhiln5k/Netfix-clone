@@ -18,7 +18,7 @@ function Nav() {
   })
   return (
     <div className ={`${show && 'nav-black'} nav`}>
-      <img src={logo} alt="" width={'150px'} />
+      <img src={logo} alt="" width={'150px'} style={{backgroundColor:"transparent"}} />
     </div>
   )
 }

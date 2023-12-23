@@ -18,7 +18,7 @@ function Row({title,fetchURL,isPoster}) {
       fetchData()
   },[])
   return (
-    <div className='row'>
+    <div className='row mt-4'>
         <h1>{title}</h1>
         <div className="movie_row">
           {
