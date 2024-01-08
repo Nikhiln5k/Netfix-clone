@@ -15,7 +15,7 @@
     display: none;
 }
 .movies{
-    width: 200px;
+    width: 300px;
     object-fit: contain;
     margin-right: 20px;
     height: 200px;
@@ -26,5 +26,5 @@
     transform: scale(1.06);
 }
 .movie-poster{
-    height: 350px;
+    height: 280px;
 }
