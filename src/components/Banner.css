@@ -1,4 +1,4 @@
-.banner-content{
+/* .banner-content{
     padding-left: 3rem;
     padding-top: 300px;
     width: 45rem;
@@ -15,4 +15,23 @@
 }
 .btn i{
     background: transparent;
+} */
+.banner{
+    transition: ease 0.3s;
+}
+.banner-content{
+    padding: 3rem;
+    transition: ease 0.3s;
+}
+
+@media screen and (max-width:764px){
+    .banner {
+        background-position: center;
+    }
+    .banner-content{
+        padding: 15px;
+    }
+    .banner-content h2{
+        font-size: 18px;
+    }
 }

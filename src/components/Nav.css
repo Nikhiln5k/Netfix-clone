@@ -7,9 +7,19 @@
     background: transparent;
 
 }
+.nav img, .nav-black img{
+    width: 150px;
+}
 .img{
     background: transparent;
 }
 .nav-black{
+    width: 100%;
     background-color: black;
+}
+
+@media screen and (max-width:764px){
+    .nav img, .nav-black img{
+        width: 130px;
+    }
 }

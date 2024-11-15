@@ -18,9 +18,9 @@ function Row({title,fetchURL,isPoster}) {
       fetchData()
   },[])
   return (
-    <div className='row mt-4'>
+    <div className='row mt-4 w-100'>
         <h1>{title}</h1>
-        <div className="movie_row">
+        <div className="movie_row w-100">
           {
             allMovies?.map(item=>(
               <img className={`movies ${isPoster && 'movie-poster'}`} src={`${base_url}/${isPoster?item?.poster_path:item?.backdrop_path}`} alt="no image" />
