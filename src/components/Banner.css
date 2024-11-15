@@ -16,12 +16,12 @@
 .btn i{
     background: transparent;
 } */
-.banner{
-    transition: ease 0.3s;
+.banner, .banner-content h1, .banner-content h2{
+    transition: ease 2s;
 }
 .banner-content{
     padding: 3rem;
-    transition: ease 0.3s;
+    transition: ease 2s;
 }
 
 @media screen and (max-width:764px){
